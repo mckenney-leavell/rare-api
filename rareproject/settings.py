@@ -139,6 +139,7 @@ AUTH_USER_MODEL = 'rareapi.RareUser'
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
+    'http://localhost:5174',
 ]
 
 APPEND_SLASH = False
